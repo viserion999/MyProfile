@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Kumar - Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+        }
+
+        .about-text {
+            line-height: 1.8;
+            color: #555;
+            font-size: 1.05em;
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+
+        tr:hover {
+            background-color: #f8f9ff;
+            transition: background-color 0.3s ease;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1em;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: default;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="Formal.jpg" alt="Vikash Kumar" class="profile-img">
+            <h1>Vikash Kumar</h1>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a curious and enthusiastic individual with a strong passion for technology and learning. I enjoy
+                    exploring new ideas, solving problems, and creating efficient solutions through coding and innovation.
+                    Dedicated and adaptable, I thrive in challenging environments that push me to grow both personally and
+                    professionally. I value continuous learning, collaboration, and sharing knowledge with others. My interests
+                    include programming, technology trends, and practical problem-solving, and I always aim to apply my skills
+                    creatively. With determination, curiosity, and a positive mindset, I strive to make a meaningful impact in
+                    everything I do.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Stream</th>
+                        <th>CGPA/Percentage</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>Master's Degree</td>
+                        <td>Computer Science & Engineering</td>
+                        <td>8.5</td>
+                        <td>2025-2027</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor's Degree</td>
+                        <td>Computer Science & Engineering</td>
+                        <td>8.5</td>
+                        <td>2020-2024</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Science</td>
+                        <td>80%</td>
+                        <td>2018-2020</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">C++</div>
+                    <div class="skill-card">Python</div>
+                    <div class="skill-card">Java</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
