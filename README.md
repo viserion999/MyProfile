@@ -1,2 +1,2 @@
 # MyProfile
-<!-- hosted on https://viserion999.github.io/MyProfile/ -->
+hosted on https://viserion999.github.io/MyProfile/
